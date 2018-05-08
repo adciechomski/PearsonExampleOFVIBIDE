@@ -1,4 +1,5 @@
 --------------- class: CVBECommandHandler
+```
 Option Explicit
 
 Public WithEvents EvtHandler As VBIDE.CommandBarEvents
@@ -123,4 +124,4 @@ Sub DeleteMenuItems()
         Set Ctrl = Application.VBE.CommandBars.FindControl(Tag:=C_TAG)
     Loop
 End Sub
-
+```
